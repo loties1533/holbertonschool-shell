@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1t | grep -v '~$' | head -n 10
-
+ls -tp | grep -v '/$' | head -n 10
